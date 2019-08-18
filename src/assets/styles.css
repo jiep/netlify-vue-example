@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.overscroll-none {
-  overscroll-behavior: none;
+body {
+  overscroll-behavior: contain;
 }
