@@ -1,4 +1,4 @@
-# netlify-vue-example
+# client
 
 ## Project setup
 ```

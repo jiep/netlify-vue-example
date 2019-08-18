@@ -1,24 +1,6 @@
 <template lang="pug">
-  #app
-    router-view/
+  #app.h-screen.flex.flex-col.bg-gray-300
+    #nav.h-24.p-4.bg-blue-900.flex.items-center.justify-center.select-none
+       p.text-white.text-3xl IACR eprint
+    router-view.h-full
 </template>
-
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
