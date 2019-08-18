@@ -5,7 +5,7 @@
         p.text-xl.font-bold Last papers
         button.bg-currrent.border-white.border.p-1.text-sm.rounded(class="hover:bg-blue-700 focus:outline-none", @click="refresh") Refresh
     notification(:msg="msg", :type="type", v-if="msg || (isError && msg)")
-    papers-list.overscroll-none(:papers="papers", :class="{spinner: isActive, 'opacity-50': isActive}")
+    papers-list(:papers="papers", :class="{spinner: isActive, 'opacity-50': isActive}")
 </template>
 
 <script>

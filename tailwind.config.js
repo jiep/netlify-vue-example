@@ -10,7 +10,7 @@ module.exports = {
     })
   },
   variants: {
-    spinner: ["responsive"],
+    spinner: ["responsive"]
   },
   plugins: [require("tailwindcss-spinner")()]
 };
