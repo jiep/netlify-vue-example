@@ -7,5 +7,9 @@ module.exports = {
       }
     }
   },
-  productionSourceMap: false
+  productionSourceMap: false,
+  pwa: {
+    themeColor: "#2a4365",
+    msTileColor: "#2a4365"
+  }
 };

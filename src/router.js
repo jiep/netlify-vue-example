@@ -12,6 +12,12 @@ export default new Router({
       path: "/",
       name: "iacr",
       component: IACR
+    },
+    {
+      path: "*",
+      beforeEnter: (to, from, next) => {
+        next("/");
+      }
     }
   ]
 });
