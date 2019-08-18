@@ -48,8 +48,8 @@ export default {
   async mounted() {
     try {
       this.isLoading = true;
-      // const { data } = await axios.get('/papers');
-      // this.papers = data;
+      const { data } = await axios.get(".netlify/functions/hello");
+      this.msg = data;
 
       this.papers = [
         {

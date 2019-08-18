@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "./node_modules/netlify-lambda/bin/cmd.js serve src-functions & vue-cli-service serve",
+    "build": "./node_modules/netlify-lambda/bin/cmd.js build src-functions && vue-cli-service build",
     "lint": "vue-cli-service lint",
     "capacitor-copy": "vue-cli-service capacitor-copy",
     "capacitor-init": "vue-cli-service capacitor-init",
@@ -15,6 +15,9 @@
     "@capacitor/cli": "^1.0.0-alpha.38",
     "@capacitor/core": "^1.0.0-alpha.38",
     "axios": "^0.19.0",
+    "bluebird": "^3.5.5",
+    "netlify-lambda": "^1.6.2",
+    "osmosis": "^1.1.10",
     "tailwindcss": "^1.0.5",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
