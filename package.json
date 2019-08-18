@@ -1,6 +1,6 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "netlify-vue-example",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "serve": "./node_modules/netlify-lambda/bin/cmd.js serve src-functions & vue-cli-service serve",

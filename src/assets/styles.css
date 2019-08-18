@@ -1,5 +1,7 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+
+.overscroll-none {
+  overscroll-behavior: none;
+}
