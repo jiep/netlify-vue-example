@@ -47,7 +47,7 @@ export default {
   },
   async mounted() {
     try {
-      this.isLoading = true;
+      this.isActive = true;
       const { data } = await axios.get(".netlify/functions/papers");
       this.papers = data;
     } catch (e) {
@@ -55,7 +55,7 @@ export default {
       this.msg = String(e);
       this.type = "danger";
     } finally {
-      this.isLoading = false;
+      this.isActive = false;
     }
   }
 };
