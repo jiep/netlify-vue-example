@@ -1,6 +1,6 @@
 {
   "name": "netlify-vue-example",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "license": "MIT",
   "scripts": {
     "serve": "./node_modules/netlify-lambda/bin/cmd.js serve src-functions & vue-cli-service serve",
