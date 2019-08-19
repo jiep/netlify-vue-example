@@ -1,3 +1,5 @@
+const webpack = require("webpack");
+
 module.exports = {
   devServer: {
     proxy: {
@@ -11,5 +13,14 @@ module.exports = {
   pwa: {
     themeColor: "#2a4365",
     msTileColor: "#2a4365"
+  },
+  configureWebpack: () => {
+    return {
+      plugins: [
+        new webpack.DefinePlugin({
+          APPLICATION_VERSION: JSON.stringify(require("./package.json").version)
+        })
+      ]
+    };
   }
 };
