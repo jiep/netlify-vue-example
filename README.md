@@ -1,4 +1,7 @@
-# client
+# netlify-vue-example
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/27c77eea-abb3-449e-8717-9a73d49fb3f9/deploy-status)](https://app.netlify.com/sites/elegant-haibt-48e3dd/deploys)
+
 
 ## Project setup
 ```
