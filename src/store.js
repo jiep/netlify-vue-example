@@ -5,10 +5,11 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    limit: 10
+    limit: localStorage.getItem("limit") || 10
   },
   mutations: {
     setLimit(state, limit) {
+      localStorage.setItem("limit", limit);
       state.limit = limit;
     }
   },
