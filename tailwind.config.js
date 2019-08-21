@@ -12,5 +12,8 @@ module.exports = {
   variants: {
     spinner: ["responsive"]
   },
-  plugins: [require("tailwindcss-spinner")()]
+  plugins: [
+    require("tailwindcss-spinner")(),
+    require("@tailwindcss/custom-forms")
+  ]
 };

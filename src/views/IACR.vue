@@ -37,10 +37,13 @@ export default {
   },
   methods: {
     async refresh() {
+      const { limit } = this.$store.getters;
       this.isError = false;
       try {
         this.isActive = true;
-        const { data } = await axios.get(".netlify/functions/papers");
+        const { data } = await axios.post(".netlify/functions/papers", {
+          limit
+        });
         this.papers = data;
       } catch (e) {
         this.isError = true;
@@ -52,9 +55,10 @@ export default {
     }
   },
   async mounted() {
+    const { limit } = this.$store.getters;
     try {
       this.isActive = true;
-      const { data } = await axios.get(".netlify/functions/papers");
+      const { data } = await axios.post(".netlify/functions/papers", { limit });
       this.papers = data;
     } catch (e) {
       this.isError = true;
