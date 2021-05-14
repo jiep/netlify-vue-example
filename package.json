@@ -31,7 +31,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "tailwindcss-spinner": "^1.0.0",
-    "tailwindcss-typography": "^2.1.1",
+    "tailwindcss-typography": "3.1.0",
     "vue-cli-plugin-pug": "^1.0.7",
     "vue-template-compiler": "^2.6.10"
   },
