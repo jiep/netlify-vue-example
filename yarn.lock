@@ -8859,12 +8859,12 @@ tailwindcss-spinner@^1.0.0:
     flat "^4.1.0"
     lodash "^4.17.11"
 
-tailwindcss-typography@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/tailwindcss-typography/-/tailwindcss-typography-2.1.1.tgz#6641c320df5dc1f5dd6e56444b25d003be5e572e"
-  integrity sha512-MzJDHAtelxtdDRJ6kTmJKhwn+qbJ3qp8mxD1MG+8po+tr4kplXl1TK0HJhxzcT//muE1HAN/l3YQ6BTlL+Q68w==
+tailwindcss-typography@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-typography/-/tailwindcss-typography-2.2.0.tgz#7e555f25f1870e39c0013eb746ce365761a9680f"
+  integrity sha512-/v+G9iXkR6Vfj7N2D8bWKrV+kh7mKxDpoTC/RX4+O5mxcJ/Jmep98MJe2Uh9uxHrH4Hh27qeOME7vtJBjpn6iA==
   dependencies:
-    lodash "^4.17.11"
+    lodash "^4.17.15"
 
 tailwindcss@^1.0.5:
   version "1.1.2"
