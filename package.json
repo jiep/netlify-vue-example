@@ -10,7 +10,7 @@
     "@capacitor/cli": "2.4.7",
     "@capacitor/core": "2.4.7",
     "axios": "^0.21.1",
-    "netlify-lambda": "^1.6.2",
+    "netlify-lambda": "2.0.6",
     "pug": "^3.0.1",
     "pug-plain-loader": "^1.1.0",
     "register-service-worker": "1.7.2",
